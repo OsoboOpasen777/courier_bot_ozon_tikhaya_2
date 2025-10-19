@@ -1,6 +1,0 @@
-Type;Type;Comment
-id;integer;Autoincrement, Primary Key
-user_id;bigint;Telegram user ID
-full_name;text;Full name
-username;text;Telegram username (maybe free)
-role;text;"Role, in default ""Курьер"""

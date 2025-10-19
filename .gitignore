@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Venv
+.venv*/
+venv*/
+.venv/
+venv/
+
+# Env
+.env
+.env.*
+
+# Editors/IDE
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Project-specific
+supabase-py/
+courier_bot.zip
+users.csv

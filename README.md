@@ -1,21 +1,10 @@
-# Telegram Bot with Supabase
+# Courier Bot
 
-## Установка
-1. Создай виртуальное окружение:
+## Запуск локально
 ```bash
 python -m venv venv
-source venv/bin/activate    # Linux/macOS
-venv\Scripts\activate     # Windows
-```
-
-2. Установи зависимости:
-```bash
+source venv/bin/activate  # или venv\Scripts\activate на Windows
 pip install -r requirements.txt
-```
-
-3. Переименуй `.env.example` в `.env` и добавь токены.
-
-4. Запусти бота:
-```bash
-python main.py
-```
+cp .env.example .env
+# заполни .env своими данными
+python -m src.main
